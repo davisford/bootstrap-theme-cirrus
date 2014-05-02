@@ -10,6 +10,9 @@
     "tests"
   ],
   "dependencies": {
-    
+
+  },
+  "devDependencies": {
+    "bootstrap": "3.1.1"
   }
 }

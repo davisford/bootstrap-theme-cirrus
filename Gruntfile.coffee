@@ -32,8 +32,7 @@ module.exports = (grunt) ->
     copy:
       bootstrap:
         files: [
-          { expand: true, cwd: '<%= bowerDirectory %>/bootstrap/less', src: ['*.less'], dest: 'tmp/' },
-          { expand: true, cwd: '<%= bowerDirectory %>/bootstrap/fonts', src: ['*'], dest: 'dist/fonts' }
+          { expand: true, cwd: '<%= bowerDirectory %>/bootstrap/less', src: ['*.less'], dest: 'tmp/' }
         ]
     clean: ['tmp']
 
